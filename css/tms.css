@@ -1,0 +1,24 @@
+#slider .slider {width:990px;height:432px;border-bottom:3px solid #fff;}
+#slider .items {display:none}
+
+#slider .pagination {position:absolute;top:380px;right:40px;z-index:999;}
+#slider .pagination li {float:left;margin:0 0px 0 10px;display:block;background: url('../images/pag.png') right 0 no-repeat;}
+#slider .pagination li.current, #slider .pagination li:hover {background-position:0 0;}
+#slider .pagination li a {width:12px;height:12px;display:block}
+
+#slider .banner {width:380px;position:absolute;color:#3d90cb;font:17px/22px Arial, Helvetica, sans-serif;display:none;}
+#slider .banner .text{}
+
+#slider .b1 {left:561px;top:76px}
+
+#slider .b2 {left:73px;top:85px;}
+
+#slider .b3 {left:73px;top:85px;width:400px;}
+
+.f_28{font-size: 28px; line-height: 35px; color: #8fbfd4;}
+.f_32a{font-size: 32px; line-height: 35px; color: #8fbfd4;letter-spacing:-1px;}
+.f_32b{font-size: 32px; line-height: 46px; color: #3d90cb;text-transform:uppercase;letter-spacing:-2px;}
+.f_34{font-size: 34px; line-height: 41px; color: #8fbfd4; margin: -5px 0 21px;}
+.f_57{font-size: 57px; line-height: 68px; color: #8fbfd4;margin:-15px 0 12px;letter-spacing:-2px;}
+.b3 .f_28, .b3 .f_34{letter-spacing:-2px;}
+.os{font-family: 'Open Sans', sans-serif;}

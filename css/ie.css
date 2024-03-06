@@ -1,0 +1,4 @@
+nav, .l_item, .f_item, .gr_button, .button, .num, .quotes, .staff, .service, .stand_list>li>figure, .tabs_nav>li a, .view, .profile, .field_wrap, #contact-form input ,.active{behavior:url(js/PIE.htc);position:relative}
+.sf-menu>li>a{letter-spacing:-1px;}
+.sf-menu ul{behavior:url(js/PIE.htc);}
+
