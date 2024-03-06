@@ -1,0 +1,25 @@
+nav{ position:relative; margin: 0px 0 0 0; background: url('../images/nav.png') repeat-x #d8e8f3; border-radius: 4px 4px 0 0;}
+#m_page nav{border-bottom:none;}
+nav{border-bottom:1px solid #fff;}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu ul li {width:100%}
+.sf-menu li {float:left;position:relative}
+
+.sf-menu>li>a{display:block;position:relative; font-size: 16px; line-height: 19px; color:#5691b9;padding: 19px 28px 21px 29px;border-right:1px solid #cee1ee;font-weight:600;}
+.sf-menu>li>a:hover,.sf-menu>li.current>a,.sf-menu>li.sfHover>a{color:#fff;}
+
+.sf-menu>li{background: url('../images/nav_li.png') 0 -70px repeat-x;}
+.sf-menu>li:hover,.sf-menu>li.current,.sf-menu>li.sfHover{background-position:0 0;background-color:#619abe;}
+.sf-menu a{}
+
+.sf-menu>li.f_item{border-radius: 4px 0 0 0;}
+.sf-menu>li.l_item{border-radius: 0 4px 0 0;}
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu li ul,.sf-menu li.sfHover ul{left:0px;top:59px;background: url('../images/sub_ul.png') repeat-x #f3e0c6;width: 213px;padding:1px 0 0 0; border-radius: 0 0 4px 4px; z-index:99;}
+.sf-menu li ul li{border-bottom:1px solid #faf2e7;}
+.sf-menu li ul li a{font-size: 12px; line-height: 18px; color: #a86f4d;display:block;background: url('../images/sub_marker.png') 181px 14px no-repeat;padding: 7px 22px 9px;}
+.sf-menu li li a:hover, .sf-menu li.sfHover li.sfHover>a{font-weight:bold;}
+
+/*================================>> 3 Level <<========================================*/
+.sf-menu li li ul{left:214px !important;top:-1px !important;}
